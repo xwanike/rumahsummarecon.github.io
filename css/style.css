@@ -280,7 +280,7 @@ h6 {
 
 /* Gaya untuk tombol "Baca Selengkapnya" */
 .baca-selengkapnya {
-  background-color: #008e00;
+  background-color: #0074c4;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -291,7 +291,7 @@ h6 {
 
 /* Gaya untuk tombol "Baca Selengkapnya" saat dihover */
 .baca-selengkapnya:hover {
-  background-color: rgb(243, 144, 15);
+  background-color: #00578e;
 }
 
 /* Gaya untuk konten tambahan */
@@ -312,9 +312,9 @@ h6 {
 .menu p,
 .contact p {
   text-align: center;
-  max-width: 60rem;
+  max-width: 30rem;
   margin: auto;
-  font-weight: 800;
+  font-weight: 500;
   line-height: 1.6;
 }
 
@@ -517,7 +517,7 @@ footer .credit a {
   }
 
   .menu p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .contact .row {
