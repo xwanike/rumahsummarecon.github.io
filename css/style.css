@@ -315,6 +315,7 @@ h6 {
   max-width: 35rem;
   margin: auto;
   font-weight: 550;
+  font-size: 16px;
   line-height: 1.6;
 }
 
@@ -517,7 +518,7 @@ footer .credit a {
   }
 
   .menu p {
-    font-size: 1.2rem;
+    font-size: 16px;
   }
 
   .contact .row {
@@ -616,7 +617,7 @@ footer .credit a {
   }
 
   .menu p {
-    font-size: 1rem; /* Mengurangi ukuran teks di menu section */
+    font-size: 14px; /* Mengurangi ukuran teks di menu section */
   }
 
   .contact .row .map {
