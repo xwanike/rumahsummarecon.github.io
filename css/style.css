@@ -760,34 +760,33 @@ footer .credit a {
   position: fixed;
   right: 25px;
   overflow: hidden;
-  width: 60px;
-  height: 60px;
+  width: 35px;
+  height: 35px;
   border-radius: 100px;
   border: 0;
   z-index: 9999;
   color: white;
-  transition: 0.2s;
 }
 
-.btn-floating:hover {
+.btn-floating {
   width: auto;
-  padding: 0 20px;
+  padding: 0 15px;
   cursor: pointer;
 }
 
 .btn-floating span {
-  font-size: 16px;
-  margin-left: 5px;
-  transition: 0.2s;
+  font-size: 15px;
+  margin-left: 3px;
+  position: center;
   line-height: 0px;
   display: none;
 }
 
-.btn-floating:hover span {
+.btn-floating span {
   display: inline-block;
 }
 
-.btn-floating:hover img {
+.btn-floating img {
   margin-bottom: -3px;
 }
 
@@ -797,6 +796,6 @@ footer .credit a {
   border: 2px solid #fff;
 }
 
-.btn-floating.whatsapp:hover {
+.btn-floating.whatsapp {
   background-color: #1f7a12;
 }
