@@ -826,6 +826,7 @@ footer .credit a {
 .update-card-title {
   font-size: 1.5em;
   margin-bottom: 10px;
+  padding-left: 10px;
 }
 
 .update-card-date {
@@ -836,6 +837,7 @@ footer .credit a {
 .update-card-description {
   line-height: 1.5;
   margin-bottom: 20px;
+  padding-left: 10px;
 }
 
 .read-more {
@@ -845,4 +847,5 @@ footer .credit a {
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
+  margin-left: 10px;
 }
