@@ -175,6 +175,7 @@ body {
 
 .about h2 span,
 .menu h2 span,
+.update h2 span,
 .contact h2 span {
   color: var(--primary);
 }
@@ -219,7 +220,7 @@ body {
   padding: 6px; /* Ubah nilai padding sesuai keinginan Anda */
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #f9f9f9;
+  background-color: #fff;
   text-align: center;
   max-width: 1500px;
 }
@@ -617,7 +618,7 @@ footer .credit a {
     position: fixed;
     top: 10rem; /* Menyesuaikan dengan tinggi navbar */
     right: -100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(63, 91, 252, 0.5);
     width: 42%;
     height: 100vh;
     transition: 0.3s;
@@ -798,4 +799,50 @@ footer .credit a {
 
 .btn-floating.whatsapp {
   background-color: #1f7a12;
+}
+
+/* News Update Section */
+.update {
+  margin: 50px 0;
+}
+
+.update h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.update-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.update-card-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.update-card-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.update-card-date {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.update-card-description {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.read-more {
+  display: inline-block;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
 }
