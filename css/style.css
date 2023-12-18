@@ -601,6 +601,10 @@ footer .credit a {
     background-size: auto;
   }
 
+  .update-card-img {
+    width: 100%;
+  }
+
   body {
     padding-top: 1px; /* Menyesuaikan dengan tinggi navbar untuk menghindari tumpang tindih */
   }
