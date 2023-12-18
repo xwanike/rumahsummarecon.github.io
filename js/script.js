@@ -16,6 +16,10 @@ document.addEventListener("click", function (e) {
 
 var tombolBacaSelengkapnya = document.querySelectorAll(".baca-selengkapnya");
 
+//date time
+setInterval(function () {
+  document.getElementById("time").innerText = new Date();
+}, 1000);
 // Menggunakan forEach untuk menambahkan event listener ke setiap tombol
 tombolBacaSelengkapnya.forEach(function (tombol) {
   tombol.addEventListener("click", function () {
