@@ -624,7 +624,7 @@ footer .credit a {
     position: fixed;
     top: 10rem; /* Menyesuaikan dengan tinggi navbar */
     right: -100%;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(63, 91, 252, 0.5);
     width: 42%;
     height: 100vh;
     transition: 0.3s;
